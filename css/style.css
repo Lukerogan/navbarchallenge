@@ -1,0 +1,96 @@
+.brand{
+    margin-left: 25px;
+    margin-right: 200px;
+}
+
+.lang{
+    margin-right: 800px;
+}
+
+.menu{
+    margin-right: 50px;
+}
+
+.projects{
+    margin-right: 50px;
+}
+
+.about{
+    margin-right: 50px;
+}
+
+.contact{
+    margin-right: 50px;
+}
+
+/* experiment */
+
+
+
+body {
+  background: #212121;
+  padding: 50px 0;
+}
+
+.weird {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.weird * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.weird li {
+  display: inline-block;
+  list-style: outside none none;
+  /* margin: .5em 1em; */
+  paddin: 0;
+}
+
+.weird a {
+  padding: .5em .8em;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.weird a::before,
+.weird a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.weird a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #3E8914;
+  border-right: 3px solid #2E640F;
+  transform: translate(-100%, 50%);
+}
+
+.weird a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%)
+}
+
+.weird a:hover:before,
+.weird a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.weird a:hover {
+  color: #3DA35D;
+}
