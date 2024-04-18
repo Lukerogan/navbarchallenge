@@ -4,7 +4,7 @@
 }
 
 .lang{
-    margin-right: 800px;
+    margin-right:35em !important;
 }
 
 .menu{
@@ -23,13 +23,13 @@
     margin-right: 50px;
 }
 
-/* experiment */
 
+/* experiment */
 
 
 body {
   background: #212121;
-  padding: 50px 0;
+  /* padding: 50px 0; */
 }
 
 .weird {
@@ -46,7 +46,7 @@ body {
 .weird li {
   display: inline-block;
   list-style: outside none none;
-  /* margin: .5em 1em; */
+  margin: 0 2em;
   paddin: 0;
 }
 
